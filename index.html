@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Malayali Cafe - Authentic Kerala cuisine in Murugeshpalya, Bengaluru. Traditional Kerala flavours served with warmth and authenticity.">
+  <meta name="theme-color" content="#171814">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="business.business">
+  <meta property="og:title" content="Malayali Cafe | Kerala Cuisine in Bengaluru">
+  <meta property="og:description" content="Authentic Kerala cuisine and traditional flavours in Murugeshpalya, Bengaluru.">
+  <meta property="og:site_name" content="Malayali Cafe">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Malayali Cafe | Kerala Cuisine in Bengaluru">
+  <meta name="twitter:description" content="Authentic Kerala cuisine in Murugeshpalya, Bengaluru.">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://malayali-cafe.example.com/">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <title>Malayali Cafe | Kerala Cuisine in Murugeshpalya, Bengaluru</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Malayali Cafe",
+    "description": "Unpretentious operation with a laid-back ambiance dishing up traditional Kerala cuisine.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Devappa Building, HAL Old Airport Rd, near KEMFORT, Murugeshpalya, Ramagiri",
+      "addressLocality": "Bengaluru",
+      "addressRegion": "Karnataka",
+      "postalCode": "560017",
+      "addressCountry": "IN"
+    },
+    "telephone": "+919691337032",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.4",
+      "reviewCount": "426",
+      "ratingSource": "Google Reviews"
+    },
+    "servesCuisine": ["Kerala", "Chinese", "Middle Eastern"],
+    "priceRange": "₹1–200"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Premium Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-container">
+      <a href="#home" class="navbar-brand">MALAYALI CAFE</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#reviews" class="nav-link">Reviews</a></li>
+        <li><a href="#location" class="nav-link">Location</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <div class="social-nav">
+          <a href="https://www.instagram.com/malayalicafeblg/" target="_blank" rel="noopener noreferrer" aria-label="Malayali Cafe on Instagram" class="social-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z"></path>
+              <circle cx="17.5" cy="6.5" r="1.5"></circle>
+            </svg>
+          </a>
+          <a href="https://www.facebook.com/104203227867153/" target="_blank" rel="noopener noreferrer" aria-label="Malayali Cafe on Facebook" class="social-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 2h-3a6 6 0 0 0-6 6v3H7v4h3v8h4v-8h3l1-4h-4V8a2 2 0 0 1 2-2h1z"></path>
+            </svg>
+          </a>
+        </div>
+        <button class="order-cta" id="navOrderBtn">Order Online</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Cinematic Hero Section -->
+  <section id="home" class="hero" style="background-image: url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1600&h=1000&fit=crop'); background-size: cover; background-position: center 30%;">
+    <div class="hero-overlay"></div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <p class="hero-label">MURUGESHPALYA • BENGALURU</p>
+        <h1 class="hero-headline">
+          Authentic<br>Kerala<br>Flavours
+        </h1>
+        <p class="hero-tagline">Made for Bengaluru.</p>
+
+        <div class="hero-actions">
+          <button class="cta-primary" id="exploreMenuBtn">Explore Menu</button>
+          <button class="cta-secondary" id="orderBtn">Order Online</button>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>SCROLL TO EXPLORE</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="12 21 12 3"></polyline>
+        <polyline points="19 14 12 21 5 14"></polyline>
+      </svg>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="about-container">
+      <div class="about-marker">
+        <div class="about-number">01</div>
+      </div>
+      <div class="about-content">
+        <div class="about-eyebrow">01 / ABOUT MALAYALI CAFE</div>
+        <h2 class="about-heading">Simple Food.<br>Bold Flavours.</h2>
+        <p class="about-text">Malayali Cafe serves Kerala, Chinese and Middle Eastern cuisine in Murugeshpalya, Bengaluru.</p>
+        <div class="about-cuisines">
+          <span>KERALA</span>
+          <span>•</span>
+          <span>CHINESE</span>
+          <span>•</span>
+          <span>MIDDLE EASTERN</span>
+        </div>
+        <a href="#menu" class="about-cta">EXPLORE OUR MENU →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Signature Dishes / Featured -->
+  <section id="signature" class="signature-section">
+    <div class="signature-container">
+      <div class="signature-header">
+        <div class="signature-label">02 / FROM THE MENU</div>
+        <h2 class="signature-title">Signature Dishes</h2>
+      </div>
+
+      <div class="signature-list">
+        <div class="signature-row">
+          <div class="signature-number">01</div>
+          <div class="signature-name">Puttu</div>
+        </div>
+
+        <div class="signature-row">
+          <div class="signature-number">02</div>
+          <div class="signature-name">Appam</div>
+        </div>
+
+        <div class="signature-row">
+          <div class="signature-number">03</div>
+          <div class="signature-name">Kerala Parotta</div>
+        </div>
+
+        <div class="signature-row">
+          <div class="signature-number">04</div>
+          <div class="signature-name">Kerala Meals</div>
+        </div>
+      </div>
+
+      <a href="#menu" class="signature-cta">VIEW FULL MENU →</a>
+    </div>
+  </section>
+
+  <!-- Food Experience / Editorial Pause -->
+  <section class="feature-section">
+    <div class="feature-container">
+      <div class="feature-label">03 / THE FOOD EXPERIENCE</div>
+      <h2 class="feature-statement">Good Food<br>is Just the Beginning</h2>
+      <div class="feature-items">
+        <div class="feature-item"><span class="feature-number">01</span> KERALA FLAVOURS</div>
+        <div class="feature-item"><span class="feature-number">02</span> EVERYDAY FAVOURITES</div>
+        <div class="feature-item"><span class="feature-number">03</span> BENGALURU DINING</div>
+        <div class="feature-item"><span class="feature-number">04</span> ORDER ONLINE</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu-section">
+    <div class="menu-container">
+      <div class="menu-label">04 / OUR MENU</div>
+
+      <h2 class="section-title">Our Menu</h2>
+
+      <div class="menu-categories">
+        <button class="menu-cat-btn active" data-filter="all">All</button>
+        <button class="menu-cat-btn" data-filter="kerala">Kerala Specials</button>
+        <button class="menu-cat-btn" data-filter="veg">Vegetarian</button>
+        <button class="menu-cat-btn" data-filter="nonveg">Non-Vegetarian</button>
+        <button class="menu-cat-btn" data-filter="rice">Rice & Biryani</button>
+        <button class="menu-cat-btn" data-filter="chinese">Chinese</button>
+        <button class="menu-cat-btn" data-filter="beverages">Beverages</button>
+      </div>
+
+      <div class="menu-items" id="menuItems">
+        <div class="menu-row" data-category="kerala">
+          <div class="menu-name">Puttu Curry</div>
+          <div class="menu-divider"></div>
+          <div class="menu-price"></div>
+        </div>
+
+        <div class="menu-row" data-category="kerala">
+          <div class="menu-name">Appam with Stew</div>
+          <div class="menu-divider"></div>
+          <div class="menu-price"></div>
+        </div>
+
+        <div class="menu-row" data-category="kerala">
+          <div class="menu-name">Kerala Parotta</div>
+          <div class="menu-divider"></div>
+          <div class="menu-price"></div>
+        </div>
+
+        <div class="menu-row" data-category="nonveg">
+          <div class="menu-name">Fish Curry</div>
+          <div class="menu-divider"></div>
+          <div class="menu-price"></div>
+        </div>
+
+        <div class="menu-row" data-category="nonveg">
+          <div class="menu-name">Chicken Stew</div>
+          <div class="menu-divider"></div>
+          <div class="menu-price"></div>
+        </div>
+
+        <div class="menu-row" data-category="nonveg">
+          <div class="menu-name">Mutton Curry</div>
+          <div class="menu-divider"></div>
+          <div class="menu-price"></div>
+        </div>
+
+        <div class="menu-row" data-category="rice">
+          <div class="menu-name">Kerala Meals</div>
+          <div class="menu-divider"></div>
+          <div class="menu-price"></div>
+        </div>
+
+        <div class="menu-row" data-category="rice">
+          <div class="menu-name">Biryani</div>
+          <div class="menu-divider"></div>
+          <div class="menu-price"></div>
+        </div>
+
+        <div class="menu-row" data-category="veg">
+          <div class="menu-name">Kappa Curry</div>
+          <div class="menu-divider"></div>
+          <div class="menu-price"></div>
+        </div>
+
+        <div class="menu-row" data-category="veg">
+          <div class="menu-name">Vegetable Curry</div>
+          <div class="menu-divider"></div>
+          <div class="menu-price"></div>
+        </div>
+
+        <div class="menu-row" data-category="chinese">
+          <div class="menu-name">Fried Rice</div>
+          <div class="menu-divider"></div>
+          <div class="menu-price"></div>
+        </div>
+
+        <div class="menu-row" data-category="chinese">
+          <div class="menu-name">Noodles</div>
+          <div class="menu-divider"></div>
+          <div class="menu-price"></div>
+        </div>
+
+        <div class="menu-row" data-category="beverages">
+          <div class="menu-name">Kerala Coffee</div>
+          <div class="menu-divider"></div>
+          <div class="menu-price"></div>
+        </div>
+
+        <div class="menu-row" data-category="beverages">
+          <div class="menu-name">Tea</div>
+          <div class="menu-divider"></div>
+          <div class="menu-price"></div>
+        </div>
+      </div>
+
+      <p class="menu-disclaimer">Menu items and availability may vary. Please confirm current details with the restaurant.</p>
+
+      <a href="#" class="menu-order-cta" id="orderMenuBtn">ORDER ONLINE →</a>
+    </div>
+  </section>
+
+  <!-- Order Section -->
+  <section class="order-section">
+    <div class="order-container">
+      <div class="order-content">
+        <h2>Ready for Your<br>Next Meal?</h2>
+        <p>Order your favourite dishes online.</p>
+      </div>
+      <button class="cta-primary" id="orderMainBtn">Order Online</button>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="gallery-section">
+    <div class="gallery-container">
+      <div class="gallery-header">
+        <div class="gallery-label">05 / GALLERY</div>
+        <h2 class="gallery-title">Gallery</h2>
+      </div>
+
+      <div class="gallery-filters">
+        <button class="gallery-btn active" data-filter="all">All</button>
+        <button class="gallery-btn" data-filter="food">Food</button>
+        <button class="gallery-btn" data-filter="restaurant">Restaurant</button>
+        <button class="gallery-btn" data-filter="dining">Dining</button>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- LEFT COLUMN: Stacked images -->
+        <div class="gallery-col-left">
+          <div class="gallery-item" data-category="food">
+            <img src="assets/images/gallery/gallery-food-01.png" alt="Kerala-style meal served on a banana leaf" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="food">
+            <img src="assets/images/gallery/gallery-food-02.png" alt="Kerala-style parotta served with curry" loading="lazy">
+          </div>
+        </div>
+
+        <!-- CENTER: Large feature image -->
+        <div class="gallery-col-center">
+          <div class="gallery-item gallery-feature" data-category="restaurant">
+            <img src="assets/images/gallery/gallery-restaurant-01.png" alt="Kerala-inspired restaurant interior" loading="lazy">
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN: Stacked smaller images -->
+        <div class="gallery-col-right">
+          <div class="gallery-item" data-category="restaurant">
+            <img src="assets/images/gallery/gallery-restaurant-02.png" alt="Warm restaurant entrance and exterior" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="dining">
+            <img src="assets/images/gallery/gallery-dining-01.png" alt="Restaurant dining table and seating" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section id="reviews" class="reviews-section">
+    <div class="reviews-container">
+      <div class="reviews-title">
+        <h2>What Diners Are Saying</h2>
+      </div>
+      <div class="reviews-content">
+        <div class="rating-display">
+          <div class="rating-score">4.4</div>
+          <div class="rating-info">
+            <p class="rating-label">out of 5</p>
+            <p class="rating-count">426 reviews on Google</p>
+          </div>
+        </div>
+        <a href="https://www.google.com/search?q=Malayali+Cafe+Bengaluru" target="_blank" rel="noopener noreferrer" class="cta-secondary">View on Google</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location Section -->
+  <section id="location" class="location-section">
+    <div class="location-container">
+      <div class="location-header">
+        <div class="location-label">06 / LOCATION</div>
+        <h2>Come By for a Taste</h2>
+      </div>
+      <div class="location-grid">
+        <div class="location-info">
+          <h3>Malayali Cafe</h3>
+          <p class="address">Devappa Building<br>HAL Old Airport Rd<br>near KEMFORT<br>Murugeshpalya, Bengaluru<br>Karnataka 560017</p>
+          <p class="phone"><a href="tel:+919691337032">096913 37032</a></p>
+        </div>
+        <div class="location-actions">
+          <a href="tel:+919691337032" class="cta-secondary">Call Restaurant</a>
+          <a href="https://www.google.com/maps/search/Devappa+Building+HAL+Old+Airport+Rd+Murugeshpalya+Bengaluru" target="_blank" rel="noopener noreferrer" class="cta-secondary">Get Directions</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="final-cta" id="visit">
+    <div class="final-cta-container">
+      <div class="cta-label">07 / VISIT MALAYALI CAFE</div>
+      <h2>Kerala Flavours.<br>Served with Soul.</h2>
+      <p>Explore our menu and discover Malayali Cafe in Murugeshpalya.</p>
+      <div class="final-actions">
+        <a href="#menu" class="cta-primary">EXPLORE MENU →</a>
+        <button class="cta-secondary" id="finalOrderBtn">ORDER ONLINE →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-column footer-brand">
+          <h3>MALAYALI CAFE</h3>
+          <p>Murugeshpalya, Bengaluru</p>
+          <p><a href="tel:+919691337032">096913 37032</a></p>
+        </div>
+
+        <div class="footer-column footer-nav-section">
+          <h4>NAVIGATION</h4>
+          <nav class="footer-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#location">Location</a>
+          </nav>
+        </div>
+
+        <div class="footer-column footer-social-section">
+          <h4>FOLLOW</h4>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/malayalicafeblg/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram</a>
+            <a href="https://www.facebook.com/104203227867153/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">Facebook</a>
+          </div>
+        </div>
+
+        <div class="footer-column footer-order-section">
+          <h4>ORDER</h4>
+          <button class="footer-order-btn" id="footerOrderBtn">ORDER ONLINE →</button>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-bottom">
+        <p class="disclaimer">Website concept created for presentation purposes.</p>
+        <p class="copyright">&copy; <span id="currentYear">2026</span> Malayali Cafe. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
