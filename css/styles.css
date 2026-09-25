@@ -1344,9 +1344,21 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+  .location-section {
+    padding: var(--space-20) 1.5rem;
+  }
+
+  .location-header {
+    margin-bottom: var(--space-12);
+  }
+
   .location-grid {
     grid-template-columns: 1fr;
-    gap: var(--space-12);
+    gap: var(--space-8);
+  }
+
+  .location-actions {
+    gap: var(--space-4);
   }
 }
 
