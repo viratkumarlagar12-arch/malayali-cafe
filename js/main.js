@@ -20,6 +20,7 @@ const navLinks = document.querySelectorAll(".nav-link");
 
 // CTA Buttons
 const navOrderBtn = document.getElementById("navOrderBtn");
+const navOrderBtnMobile = document.getElementById("navOrderBtnMobile");
 const exploreMenuBtn = document.getElementById("exploreMenuBtn");
 const orderBtn = document.getElementById("orderBtn");
 const orderMainBtn = document.getElementById("orderMainBtn");
@@ -149,6 +150,7 @@ navLinks.forEach((link) => {
 // Order buttons
 const orderButtons = [
   navOrderBtn,
+  navOrderBtnMobile,
   orderBtn,
   orderMainBtn,
   finalOrderBtn,
@@ -157,7 +159,13 @@ const orderButtons = [
 ];
 
 orderButtons.forEach((btn) => {
-  if (btn) btn.addEventListener("click", handleOrderClick);
+  if (btn) {
+    btn.addEventListener("click", handleOrderClick);
+    // Close mobile menu when mobile order button is clicked
+    if (btn === navOrderBtnMobile) {
+      btn.addEventListener("click", closeMobileMenu);
+    }
+  }
 });
 
 // Explore menu button
